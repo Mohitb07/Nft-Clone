@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['i.pinimg.com', "www.mast-jaegermeister.de"],
+  },
 }
 
 module.exports = nextConfig
