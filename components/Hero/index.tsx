@@ -36,13 +36,14 @@ const Hero: React.FC = () => {
     //     />
     //   </div>
     // </div>
-    <div className="w-full lg:bg-green-500 xl:bg-blue-500 2xl:bg-pink-400 h-full lg:flex">
-      <div className="px-4 space-y-10 lg:flex lg:space-y-0 lg:items-center">
-        <div className="flex flex-col text-5xl md:text-6xl lg:text-6xl text-center lg:text-left text-white tracking-wide lg:w-1/2">
+    <div className="w-full h-full">
+      <div className="px-4 space-y-10 lg:flex lg:space-y-0 lg:items-center lg:pt-[10rem]">
+        
+        <div className="flex flex-grow 2xl:flex-grow-0 2xl:space-y-5 flex-col text-5xl md:text-6xl lg:text-5xl 2xl:text-7xl text-center lg:text-left text-white tracking-wide lg:w-1/3">
           <span>Create and sell</span>
           <span>your Rare NFTs</span>
           <span>Collection</span>
-          <p className="text-base md:text-lg my-5 text-gray-500 lg:text-base">
+          <p className="text-base md:text-lg my-5 text-gray-500 lg:text-base 2xl:text-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing Lorem, ipsum.
             Lorem, ipsum dolor.
           </p>
@@ -50,18 +51,19 @@ const Hero: React.FC = () => {
             Explore Now
           </button>
         </div>
-        <div className="p-5 flex items-center gap-4 md:gap-6 justify-center lg:justify-end lg:p-0">
+        
+        <div className="p-5 flex flex-shrink items-center gap-4 xl:gap-6 2xl:gap-28 justify-center lg:justify-end 2xl:flex-1 2xl:justify-center lg:p-0 ">
           <Image
-            className="rounded-full lg:rounded-md shadow-2xl shadow-neutral-50 md:h-[250px] md:w-[250px] z-50 lg:h-[300px] lg:w-[300px] xl:h-[350px] xl:w-[350px]"
-            height={150}
-            width={150}
+            className="rounded-full h-[150px] w-[150px] xl:rounded-md shadow-2xl shadow-neutral-50 md:h-[250px] md:w-[250px] z-50 lg:h-[270px] lg:w-[270px] xl:h-[300px] xl:w-[300px] 2xl:h-[400px] 2xl:w-[400px]"
+            height={500}
+            width={500}
             src="https://i.pinimg.com/736x/93/8e/b4/938eb42b1dd3cc2355dc1d5efebad7d4.jpg"
             alt="ape-nft"
           />
           <Image
-            className="rounded-full lg:rounded-md mt-[2rem] md:mt-[5rem] shadow-2xl shadow-[#79D1EF] md:h-[250px] md:w-[250px] z-50 lg:h-[300px] lg:w-[300px] xl:h-[300px] xl:w-[300px]"
-            height={150}
-            width={150}
+            className="rounded-full h-[150px] w-[150px] xl:rounded-md mt-[2rem] md:mt-[5rem] shadow-2xl shadow-[#79D1EF] md:h-[250px] md:w-[250px] z-50 lg:h-[270px] lg:w-[270px] xl:h-[300px] xl:w-[300px] 2xl:h-[400px] 2xl:w-[400px]"
+            height={500}
+            width={500}
             src="https://www.mast-jaegermeister.de/medien/2022/06/jaegermeister_hape_nighttime.jpg"
             alt="ape-nft"
           />
